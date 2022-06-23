@@ -1,0 +1,47 @@
+.page-home {
+  text-align: center;
+  .title {
+    font-weight: 700;
+    font-family: $font-family-base;
+  }
+  p {
+    margin: 0 auto;
+    font-size: 1.2rem;
+    // font-weight: lighter;
+    margin-bottom: 10px;
+    @include media-breakpoint-up(md) {
+      width: 80%;
+    }
+    @include media-breakpoint-up(lg) {
+      width: 60%;
+    }
+  }
+  .terminal {
+    border-radius: 3px;
+    margin: 0 auto;
+    margin-top: -200px;
+    img {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  #intro-standard {
+    .download-button {
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      img {
+        margin-right: .5rem;
+      }
+      padding: .5rem 1rem;
+      font-size: 1.25rem;
+      text-transform: none;
+    }
+  }
+  #intro-graphic {
+    img {
+      max-width: 100%;
+    }
+  }
+}

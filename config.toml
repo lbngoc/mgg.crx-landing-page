@@ -1,0 +1,51 @@
+baseURL = "https://mgg.cx/"
+languageCode = "vi-VN"
+title = "MGG: Tìm Mã giảm giá & Khuyến mãi"
+# title = "Just a test"
+themesDir = "themes"
+theme = "hugo-whisper-theme"
+
+[[menu.main]]
+name = "Mã giảm giá"
+url = "https://magiamgia.cc"
+weight = 1
+
+[[menu.main]]
+name = "Tiện ích mua sắm"
+url = "/download"
+weight = 2
+
+[[redirects]]
+  from = "/download"
+  to = "https://chrome.google.com/webstore/detail/mgg-t%C3%ACm-m%C3%A3-gi%E1%BA%A3m-gi%C3%A1-khuy%E1%BA%BF/ifopcmdhkclfibobkihammcldjbmidnm"
+  status = 200
+  force = true
+
+[params]
+  google_analytics_id = ""
+  homepage_button_link = '/download'
+  homepage_button_text = 'Tải về cho Chrome'
+  homepage_intro = '<p class="mb-3">Tiện ích <em class="badge badge-warning">nhỏ</em> giúp tự động tìm kiếm các mã giảm giá và khuyến mãi cho các sàn thương mại điện tử <strong class="brand-shopee">Shopee</strong>, <strong class="brand-tiki">Tiki</strong>, <strong class="brand-lazada">Lazada</strong>... giúp bạn giảm được một khoản chi phí <em class="badge badge-danger">lớn</em> khi mua sắm trực tuyến từ các hệ thống trên.</p><p class="fs-italic">Hãy là người tiêu dùng thông thái và tiết kiệm nhất nhé!</p>'
+  homepage_image = '/images/screenshot.png'
+  # homepage_image = '/images/terminal.gif'
+  homepage_one_col = true
+
+  ## You can enable to add anchor links to header elements
+  # enable_anchor_link = true
+
+  [params.homepage_meta_tags]
+    meta_description = "Tiện ích nhỏ tìm kiếm Mã giảm giá và Khuyến mãi nhanh nhất, giúp bạn tiết kiệm tiền mua sắm lớn nhất có thể cho bạn."
+    meta_og_title = "MGG: Tìm kiếm Mã giảm giá và Khuyến mãi nhanh nhất"
+    meta_og_type = "website"
+    meta_og_url = "https://mgg.cx"
+    meta_og_image = "/images/screenshot.png"
+    meta_og_description = "Tiện ích nhỏ tìm kiếm Mã giảm giá và Khuyến mãi nhanh nhất, giúp bạn tiết kiệm tiền mua sắm lớn nhất có thể cho bạn."
+    meta_twitter_card = "summary"
+    meta_twitter_site = "@zerostaticio"
+    meta_twitter_creator = "@zerostaticio"
+
+  [params.logo]
+    mobile = "/images/magiamgia_cc.svg"
+    standard  = "/images/mgg.svg"
+    # mobile = "/images/logo.svg"
+    # standard  = "/images/logo-mobile.svg"
