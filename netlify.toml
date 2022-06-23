@@ -8,5 +8,5 @@
 [[redirects]]
   from = "/download"
   to = "https://chrome.google.com/webstore/detail/mgg-t%C3%ACm-m%C3%A3-gi%E1%BA%A3m-gi%C3%A1-khuy%E1%BA%BF/ifopcmdhkclfibobkihammcldjbmidnm"
-  status = 200
+  status = 301
   force = true
