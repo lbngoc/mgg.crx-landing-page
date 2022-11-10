@@ -6,14 +6,24 @@ themesDir = "themes"
 theme = "hugo-whisper-theme"
 
 [[menu.main]]
-name = "Mã giảm giá"
-url = "https://magiamgia.cc"
+name = "Mã giảm giá Tiki"
+url = "https://magiamgia.cc/tiki"
 weight = 1
 
 [[menu.main]]
-name = "Tiện ích mua sắm"
-url = "/download"
+name = "Mã giảm giá Shopee"
+url = "https://magiamgia.cc/shopee"
 weight = 2
+
+[[menu.main]]
+name = "Mã giảm giá Lazada"
+url = "https://magiamgia.cc/lazada"
+weight = 3
+
+[[menu.main]]
+name = "Tiện ích xem Mã giảm và Khuyến mãi"
+url = "/download"
+weight = 4
 
 [params]
   google_analytics_id = ""
@@ -23,6 +33,7 @@ weight = 2
   homepage_image = '/images/screenshot.png'
   # homepage_image = '/images/terminal.gif'
   homepage_one_col = true
+  homepage_copyright = 'Tiện ích được cung cấp bởi <a href="https://magiamgia.cc/?utm_source=mgg.cx" title="MGG | Mã Giảm Giá">MGG</a>'
 
   ## You can enable to add anchor links to header elements
   # enable_anchor_link = true
